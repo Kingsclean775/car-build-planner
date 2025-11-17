@@ -12,7 +12,7 @@
 // Affiliate helper functions
 // ============================
 const AFFILIATE = {
-  amazonTag: 'YOURTAG-20', // TODO: replace with your real Amazon tag later
+  amazonTag: 'carbuild20-20', // TODO: replace with your real Amazon tag later
   // Later you can add eBay, AutoZone, Summit, etc.
 };
 
