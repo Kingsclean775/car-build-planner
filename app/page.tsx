@@ -442,7 +442,7 @@ export default function Home() {
           </div>
 
           <h1 className="mt-3 text-3xl font-bold">
-            Build your upgrade plan — instantly.
+            Build your next car setup — your way.
           </h1>
           <p className="max-w-xl text-sm text-slate-300">
             Select a platform, filter upgrades, and create a realistic build with
