@@ -34,7 +34,7 @@ export const demoParts = [
     description: 'Ceramic front pads for daily driving and light towing.',
     msrp: 89.99,
     fitmentNotes: 'Non-H6 models only.',
-    productUrl: amazon('B0OUTBKPAD01'),
+    productUrl: amazon('B07RN9WMTJ'),
     compatibleEngines: ['EJ251'],
     compatibleTrims: ['25_base', '25_limited']
   },
