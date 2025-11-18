@@ -365,7 +365,58 @@ export const demoParts = [
     compatibleEngines: ['EJ251', 'EZ30'],
     compatibleTrims: ['25_base', '25_limited', '30_llbean', '30_vdc']
   },
-
+  {
+    id: 201,
+    platformId: 'gen2_outback',
+    brand: 'Akebono',
+    name: 'ProACT Front Brake Pads (ACT941)',
+    category: 'brake_pad_front',
+    description: 'Ultra-premium ceramic front pads for smooth, quiet stopping on daily-driven Outbacks.',
+    msrp: 95.00,
+    fitmentNotes: 'Fits many 2000–2004 Outback 2.5L applications; verify with Amazon Garage before purchase.',
+    productUrl: amazon('B003E20QXM'),
+    compatibleEngines: ['EJ251'],
+    compatibleTrims: ['25_base', '25_limited']
+  },
+  {
+    id: 202,
+    platformId: 'gen2_outback',
+    brand: 'Bosch',
+    name: 'QuietCast Rear Brake Pads (BC770)',
+    category: 'brake_pad_rear',
+    description: 'Ceramic rear pad set aimed at low dust and low noise for Subaru wagons.',
+    msrp: 55.00,
+    fitmentNotes: 'Compatible with select Outback/Legacy/Baja rear brakes; confirm exact fitment by year/trim.',
+    productUrl: amazon('B008HZOBVE'),
+    compatibleEngines: ['EJ251'],
+    compatibleTrims: ['25_base', '25_limited']
+  },
+  {
+    id: 203,
+    platformId: 'gen2_outback',
+    brand: 'CompleteStruts',
+    name: 'Front & Rear Quick Strut Kit (Set of 4)',
+    category: 'strut_front',
+    description: 'Pre-assembled front and rear struts with springs to refresh a tired Gen 2 suspension.',
+    msrp: 410.00,
+    fitmentNotes: 'Listed as replacement for 2000–2004 Outback models; verify trim and drivetrain in Amazon Garage.',
+    productUrl: amazon('B0193NGEEK'),
+    compatibleEngines: ['EJ251', 'EZ30'],
+    compatibleTrims: ['25_base', '25_limited', '30_llbean', '30_vdc']
+  },
+  {
+    id: 204,
+    platformId: 'gen2_outback',
+    brand: 'MOOG',
+    name: 'Front Lower Control Arm w/ Ball Joint (RK620355)',
+    category: 'control_arms_front',
+    description: 'Service-grade lower control arm assembly with integrated ball joint to tighten up front-end feel.',
+    msrp: 140.00,
+    fitmentNotes: 'Commonly used on early-2000s Legacy/Outback; check part number against your VIN before ordering.',
+    productUrl: amazon('B007ZLLURE'),
+    compatibleEngines: ['EJ251'],
+    compatibleTrims: ['25_base', '25_limited']
+  },
   // ===== 2nd Gen WRX (2002–2005 GD) =====
   {
     id: 101,
@@ -501,6 +552,58 @@ export const demoParts = [
     fitmentNotes:
       'Cutting/trimming bumper may be required. Tuning recommended.',
     productUrl: amazon('B0WRXFMIC110'),
+    compatibleEngines: ['EJ205'],
+    compatibleTrims: ['wrx_base', 'wrx_premium']
+  },// ===== Real Amazon-linked parts: Subaru Impreza WRX (2002–2005 GD) =====
+  {
+    id: 301,
+    platformId: 'gen2_wrx',
+    brand: 'Bosch',
+    name: 'QuietCast Front Brake Pads (BC929)',
+    category: 'brake_pad_front',
+    description: 'Ceramic front pads aimed at street-driven WRX builds with quieter operation and low dust.',
+    msrp: 75.00,
+    fitmentNotes: 'Listed for select WRX/Impreza/Outback/Baja models; confirm 2002–2005 WRX fitment before buying.',
+    productUrl: amazon('B00XM0HW10'),
+    compatibleEngines: ['EJ205'],
+    compatibleTrims: ['wrx_base', 'wrx_premium']
+  },
+  {
+    id: 302,
+    platformId: 'gen2_wrx',
+    brand: 'Bosch',
+    name: 'QuietCast Rear Brake Pads (BC770)',
+    category: 'brake_pad_rear',
+    description: 'Rear ceramic pad set to pair with upgraded fronts on daily or light-spirited WRX builds.',
+    msrp: 55.00,
+    fitmentNotes: 'Shared rear fitment with various Subaru platforms; verify axle and rotor style for your WRX.',
+    productUrl: amazon('B008HZOBVE'),
+    compatibleEngines: ['EJ205'],
+    compatibleTrims: ['wrx_base', 'wrx_premium']
+  },
+  {
+    id: 303,
+    platformId: 'gen2_wrx',
+    brand: 'Bilstein',
+    name: '5100-Series Shock Option (example listing)',
+    category: 'coilovers',
+    description: 'Bilstein monotube dampers commonly used as a step up from tired OE shocks on heavier-duty builds.',
+    msrp: 450.00,
+    fitmentNotes: 'Use as a placeholder example; always match exact Bilstein part numbers to WRX year and suspension setup.',
+    productUrl: amazon('B07PP4LRGS'), // example high-quality Bilstein kit link
+    compatibleEngines: ['EJ205'],
+    compatibleTrims: ['wrx_base', 'wrx_premium']
+  },
+  {
+    id: 304,
+    platformId: 'gen2_wrx',
+    brand: 'Akebono',
+    name: 'ProACT Ceramic Pad Kit (front/rear example)',
+    category: 'maintenance',
+    description: 'Akebono ceramic pad technology used as a reference for premium quiet braking packages.',
+    msrp: 160.00,
+    fitmentNotes: 'Use as a demo slot for a full pad kit; verify the actual Akebono kit number against your WRX.',
+    productUrl: amazon('B0DT131FK5'), // Forester/Legacy/Outback kit used as a demo reference
     compatibleEngines: ['EJ205'],
     compatibleTrims: ['wrx_base', 'wrx_premium']
   },
@@ -894,5 +997,57 @@ export const demoParts = [
     productUrl: amazon('B0RAMHITCH410'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
-  }
+  },// ===== Real Amazon-linked parts: Dodge Ram 2500 (2003–2008 4x4) =====
+  {
+    id: 401,
+    platformId: 'ram3g_2500',
+    brand: 'Bilstein',
+    name: '5100 Gas Shock Set (Front & Rear)',
+    category: 'suspension',
+    description: 'Matched set of 5100 monotube shocks for 4x4 Ram 2500 trucks with mild lift or leveled stance.',
+    msrp: 520.00,
+    fitmentNotes: 'Listed for 2003–2010 Ram 2500 4WD with 0–2.5\" lift; confirm exact year, drivetrain, and height.',
+    productUrl: amazon('B07PP4LRGS'),
+    compatibleEngines: ['57HEMI', '59CUMMINS'],
+    compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
+  },
+  {
+    id: 402,
+    platformId: 'ram3g_2500',
+    brand: 'Bilstein',
+    name: '5100 Rear Shock Pair',
+    category: 'suspension',
+    description: 'Rear pair of 5100 shocks to control axle hop and towing squat on work-oriented Ram builds.',
+    msrp: 220.00,
+    fitmentNotes: 'Rear pair for 4WD / RWD Ram 2500/3500 trucks with stock to mild rear lift; verify part number.',
+    productUrl: amazon('B079YYNGLN'),
+    compatibleEngines: ['57HEMI', '59CUMMINS'],
+    compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
+  },
+  {
+    id: 403,
+    platformId: 'ram3g_2500',
+    brand: 'Mopar / Aftermarket',
+    name: 'Heavy-Duty Front Brake Pad Set (example)',
+    category: 'brake_pad_front',
+    description: 'HD front pads for hauling and towing builds where Ram 2500s see regular work duty.',
+    msrp: 95.00,
+    fitmentNotes: 'Use as a placeholder and link to a front brake pad set that matches the truck’s axle and rotor size.',
+    productUrl: amazon('B01F8135H0'), // example shock ASIN used as placeholder link to be updated later
+    compatibleEngines: ['57HEMI', '59CUMMINS'],
+    compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
+  },
+  {
+    id: 404,
+    platformId: 'ram3g_2500',
+    brand: 'Generic Towing',
+    name: 'Drop-In Class III/IV Receiver Hitch',
+    category: 'hitch',
+    description: 'Class III/IV receiver hitch to set Ram 2500 up for basic trailer duty and general towing.',
+    msrp: 260.00,
+    fitmentNotes: 'Pick an Amazon hitch listing that matches bed length, frame style, and bumper type before finalizing.',
+    productUrl: amazon('B000C1LLNC'), // placeholder ASIN – replace with your chosen hitch product
+    compatibleEngines: ['57HEMI', '59CUMMINS'],
+    compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
+  },
 ];
