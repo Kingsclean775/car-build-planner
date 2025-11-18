@@ -55,13 +55,13 @@ export const demoParts = [
     id: 3,
     platformId: 'gen2_outback',
     brand: 'PowerStop',
-    name: 'Drilled & Slotted Rear Rotors (Pair)',
+    name: 'Power Stop K3124 Rear Z23 Carbon Fiber Brake Pads with Drilled & Slotted Brake Rotors Kit',
     category: 'rotor_rear',
     description:
       'Improved cooling and bite for heavier loads and mountain driving.',
     msrp: 140,
     fitmentNotes: 'Fits rear brakes on 2000–2004 Outback Gen 2.',
-    productUrl: amazon('B0OUTBKROT03'),
+    productUrl: amazon('B005FKIC7S'),
     compatibleEngines: ['EJ251', 'EZ30'],
     compatibleTrims: ['25_base', '25_limited', '30_llbean', '30_vdc']
   },
