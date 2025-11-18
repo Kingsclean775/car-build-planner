@@ -59,7 +59,7 @@ export const demoParts = [
     category: 'rotor_rear',
     description:
       'Improved cooling and bite for heavier loads and mountain driving.',
-    msrp: 140,
+    msrp: 171.78,
     fitmentNotes: 'Fits rear brakes on 2000–2004 Outback Gen 2.',
     productUrl: amazon('B005FKIC7S'),
     compatibleEngines: ['EJ251', 'EZ30'],
