@@ -857,14 +857,14 @@ export const demoParts = [
   {
     id: 401,
     platformId: 'ram3g_2500',
-    brand: 'Raybestos',
-    name: 'Severe Duty Front Brake Pads',
+    brand: 'BOSCH',
+    name: 'Severe Duty Front Brake Pads set',
     category: 'brake_pad_front',
     description:
       'Fleet-grade pads designed for towing, hauling, and frequent stops.',
-    msrp: 120,
+    msrp: 39.78,
     fitmentNotes: 'Fits 2003–2008 Ram 2500 front disc brakes (check rotor size).',
-    productUrl: amazon('B0RAMPAD401'),
+    productUrl: amazon('B07337VHQ9'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
   },
@@ -872,25 +872,12 @@ export const demoParts = [
     id: 402,
     platformId: 'ram3g_2500',
     brand: 'PowerStop',
-    name: 'Front Drilled & Slotted Rotors (Pair)',
+    name: 'Front Drilled & Slotted Rotors Brake Kit (Pair)',
     category: 'rotor_front',
     description: 'Heavy-duty rotors to handle heat from towing and mountain descents.',
-    msrp: 260,
+    msrp: 407.69,
     fitmentNotes: 'Fits most 2003–2008 Ram 2500 front hubs (verify by VIN).',
-    productUrl: amazon('B0RAMROTR402'),
-    compatibleEngines: ['57HEMI', '59CUMMINS'],
-    compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
-  },
-  {
-    id: 403,
-    platformId: 'ram3g_2500',
-    brand: 'Raybestos',
-    name: 'Severe Duty Rear Brake Pads',
-    category: 'brake_pad_front', // re-using brake category so filters catch it
-    description: 'Severe duty compound for loaded work trucks.',
-    msrp: 115,
-    fitmentNotes: 'Fits 2003–2008 Ram 2500 rear disc brakes (where equipped).',
-    productUrl: amazon('B0RAMPAD403'),
+    productUrl: amazon('B005UB4S70'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
   },
@@ -898,14 +885,14 @@ export const demoParts = [
     id: 404,
     platformId: 'ram3g_2500',
     brand: 'PowerStop',
-    name: 'Rear Drilled & Slotted Rotors (Pair)',
+    name: 'Rear Drilled & Slotted Rotors Brake Kit (Pair)',
     category: 'rotor_rear',
     description:
       'Rear rotor upgrade for better heat management with heavy trailers.',
-    msrp: 240,
+    msrp: 394.50,
     fitmentNotes:
       'Fits 2003–2008 Ram 2500 with rear discs. Drum models need different kit.',
-    productUrl: amazon('B0RAMROTR404'),
+    productUrl: amazon('B00AN5S8OW'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
   },
@@ -919,7 +906,7 @@ export const demoParts = [
     msrp: 190,
     fitmentNotes:
       'Fits many 2003–2008 Ram 2500 applications — confirm by axle and lift height.',
-    productUrl: amazon('B0RAMBLN405'),
+    productUrl: amazon('B0014BDD3U'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
   },
@@ -956,15 +943,15 @@ export const demoParts = [
   {
     id: 408,
     platformId: 'ram3g_2500',
-    brand: 'Synergy',
-    name: 'Heavy-Duty Track Bar',
+    brand: 'maXpeedingrods',
+    name: 'Heavy-Duty Track Bar Red',
     category: 'control_arms_front',
     description:
       'Adjustable track bar to fight death wobble and recenter the front axle.',
     msrp: 380,
     fitmentNotes:
       'Fits many 3rd gen Ram 2500/3500 4x4 trucks. Verify lift height compatibility.',
-    productUrl: amazon('B0RAMTRKB408'),
+    productUrl: amazon('B0CF28Z5J3'),
     compatibleEngines: ['57HEMI', '59CUMMINS'],
     compatibleTrims: ['ram2500_57_hemi', 'ram2500_59_cummins']
   },
