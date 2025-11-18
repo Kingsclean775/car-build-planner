@@ -42,7 +42,7 @@ export const demoParts = [
     id: 2,
     platformId: 'gen2_outback',
     brand: 'Centric',
-    name: Slottted Brake Rotor',
+    name: 'Slottted Brake Rotor',
     category: 'rotor_front',
     description: 'Premium rotors for smooth braking and reduced noise.',
     msrp: 334.97,
