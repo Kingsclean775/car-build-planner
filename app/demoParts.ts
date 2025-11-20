@@ -317,7 +317,7 @@ export const demoParts = [
     id: 23,
     platformId: 'gen2_outback',
     brand: 'Subaru OEM',
-    name: 'Radiator Hoses (Upper + Lower)',
+    name: 'Radiator hi (Upper + Lower)',
     category: 'cooling_hoses',
     description: 'OEM-grade rubber hoses for cooling system refresh.',
     msrp: 70,
